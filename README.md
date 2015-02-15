@@ -1,23 +1,11 @@
-# Firebase Chat for Android
+# Gimme for Android
 
-A simple chat application that built with Firebase on Android.
+Lost your things? Get them back quicker. 
+![Screenshot](/screenshots/chat.png)
+![Screenshot](/screenshots/main_screen.png)
+![Screenshot](/screenshots/scan_qrcode.png)
 
-![Screenshot](screenshot.png)
 
-## Setup
+Our story began when an unfortunate incident occurred last Friday night. Shababa, one of the co-founder, lost her wallet. The next morning when she met with her team, she told them the story of her missing wallet. While they were discussing a "hack for change", the team thought of problems they all had in their own lives. Turns how Shababa's loss was a blessing in disguise, the team ended up formulating the idea of Gimme. 
 
-Update [`MainActivity`](/app/src/main/java/com/firebase/androidchat/MainActivity.java) and replace
-`https://android-chat.firebaseio-demo.com` with a reference to your Firebase.
-
-## What's here
-
-This application's
-[`FirebaseListAdapter`](/app/src/main/java/com/firebase/androidchat/FirebaseListAdapter.java)
-demonstrates binding Firebase to an Android
-[ListView](https://developer.android.com/guide/topics/ui/layout/listview.html).
-Firebase keeps the list data up to date based on a mapping to a model class.
-
-## More about Firebase on Android
-
-You can do lots more with Firebase on Android. Check out our Android
-[Quickstart guide](https://www.firebase.com/docs/java-quickstart.html) to learn more.
+Gimme allows people who have lost their belongings to be instantly contacted when someone has found their item. This is achieved by leaving a sticker with a  special Gimme QR code on their item. When the item gets lost and found, the finder can scan the code via Gimme and it opens a chat with the item owner. From there both parties can discuss how to return the item. 
